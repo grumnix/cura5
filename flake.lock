@@ -3,22 +3,25 @@
     "cura5_appimage": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-kK4jJvLjAiOj609AQILNhc3BvMUcVV42J3H+xa/rmpQ=",
+        "narHash": "sha256-b881vYY9sCZdF/WyvkwsOSg+KZYm061EsrF9rHfui40=",
         "type": "file",
-        "url": "https://github.com/Ultimaker/Cura/releases/download/5.2.1/Ultimaker-Cura-5.2.1-linux-modern.AppImage"
+        "url": "https://github.com/Ultimaker/Cura/releases/download/5.3.1/UltiMaker-Cura-5.3.1-linux-modern.AppImage"
       },
       "original": {
         "type": "file",
-        "url": "https://github.com/Ultimaker/Cura/releases/download/5.2.1/Ultimaker-Cura-5.2.1-linux-modern.AppImage"
+        "url": "https://github.com/Ultimaker/Cura/releases/download/5.3.1/UltiMaker-Cura-5.3.1-linux-modern.AppImage"
       }
     },
     "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
       "locked": {
-        "lastModified": 1667395993,
-        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "lastModified": 1681202837,
+        "narHash": "sha256-H+Rh19JDwRtpVPAWp64F+rlEtxUWBAQW28eAi3SRSzg=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "rev": "cfacdce06f30d2b68473a46042957675eebb3401",
         "type": "github"
       },
       "original": {
@@ -28,16 +31,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1673056779,
-        "narHash": "sha256-+Mjz9puicCHhik7QQxm9SviN0T8cLznIXqMTAoau4dA=",
+        "lastModified": 1684782344,
+        "narHash": "sha256-SHN8hPYYSX0thDrMLMWPWYulK3YFgASOrCsIL3AJ78g=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "8c03897e2622f4bc8060370736df431d5942522c",
+        "rev": "8966c43feba2c701ed624302b6a935f97bcbdf88",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-22.11",
+        "ref": "nixos-23.05",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -47,6 +50,21 @@
         "cura5_appimage": "cura5_appimage",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
       }
     }
   },

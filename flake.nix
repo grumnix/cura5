@@ -1,8 +1,8 @@
 {
   inputs = rec {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.05";
 
-    cura5_appimage.url = "https://github.com/Ultimaker/Cura/releases/download/5.2.1/Ultimaker-Cura-5.2.1-linux-modern.AppImage";
+    cura5_appimage.url = "https://github.com/Ultimaker/Cura/releases/download/5.3.1/UltiMaker-Cura-5.3.1-linux-modern.AppImage";
     cura5_appimage.flake = false;
   };
 
