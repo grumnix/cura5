@@ -1,8 +1,8 @@
 {
   inputs = rec {
-    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-25.05";
 
-    cura5_appimage.url = "https://github.com/Ultimaker/Cura/releases/download/5.9.0/UltiMaker-Cura-5.9.0-linux-X64.AppImage";
+    cura5_appimage.url = "https://github.com/Ultimaker/Cura/releases/download/5.10.1/UltiMaker-Cura-5.10.1-linux-X64.AppImage";
     cura5_appimage.flake = false;
   };
 
@@ -16,7 +16,8 @@
             default = cura5;
 
             cura5 = pkgs.appimageTools.wrapType2 rec {
-              name = "cura5";
+              pname = "cura5";
+              version = "5.10.1";
               src = cura5_appimage;
             };
           };
