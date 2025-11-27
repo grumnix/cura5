@@ -3,13 +3,13 @@
     "cura5_appimage": {
       "flake": false,
       "locked": {
-        "narHash": "sha256-unjUdkCCB79BZcLHsaSFO7n3z0/O5tV0HXuy85U+AFs=",
+        "narHash": "sha256-TwW2FEd/BgipdjI3Ch6/KK6tv/xP76gEEhSqQ5ie8Mo=",
         "type": "file",
-        "url": "https://github.com/Ultimaker/Cura/releases/download/5.10.1/UltiMaker-Cura-5.10.1-linux-X64.AppImage"
+        "url": "https://github.com/Ultimaker/Cura/releases/download/5.11.0/UltiMaker-Cura-5.11.0-linux-X64.AppImage"
       },
       "original": {
         "type": "file",
-        "url": "https://github.com/Ultimaker/Cura/releases/download/5.10.1/UltiMaker-Cura-5.10.1-linux-X64.AppImage"
+        "url": "https://github.com/Ultimaker/Cura/releases/download/5.11.0/UltiMaker-Cura-5.11.0-linux-X64.AppImage"
       }
     },
     "flake-utils": {
